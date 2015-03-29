@@ -1,0 +1,61 @@
+<style>
+	body {
+		margin-left: 48px;
+	}
+
+	#Lineyka-panel {
+		all: initial;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 48px;
+		z-index: 9000;
+		background: #ccc;
+		overflow: auto;
+		counter-reset: Lineyka-post-count;
+	}
+
+	#Lineyka-panel .line {
+		all: initial;
+		display: block;
+		height: 4px;
+		cursor: pointer;
+		color: #777;
+		font-family: sans;
+		font-size: .7em;
+		text-align: center;
+		counter-increment: Lineyka-post-count;
+	}
+
+	#Lineyka-panel .line.pointed {
+		border-right: 4px solid red;
+	}
+
+	#Lineyka-panel .line:nth-of-type(odd) {background: #ffbf95;}
+	#Lineyka-panel .line:nth-of-type(even) {background: #ffd0b1;}
+	#Lineyka-panel .line:nth-of-type(odd).reply {background: #95baff;}
+	#Lineyka-panel .line:nth-of-type(even).reply {background: #b1ccff;}
+	#Lineyka-panel .line:nth-of-type(odd).watched {background: #ededed;}
+	#Lineyka-panel .line:nth-of-type(even).watched {background: #ffffff;}
+
+	#Lineyka-panel .line:nth-of-type(100n), #Lineyka-panel .line:last-of-type {
+		height: initial;
+		padding: .2em;
+	}
+
+	#Lineyka-panel .line:nth-of-type(100n):after, #Lineyka-panel .line:last-of-type:after {
+		padding: .2em;
+		content: counter(Lineyka-post-count);
+	}
+</style>
+
+<div id = "Lineyka-panel"></div>
+
+<template id = "Lineyka-line-template">
+	<a class = "line"></a>
+</template>
+
+<template id = "Lineyka-post-count-template">
+	<div class = "post-count"></div>
+</template>
