@@ -1,7 +1,7 @@
 Линейка
 =======
 
-![Скриншот](http://i.imgur.com/hgOlR3Y.png)
+![Скриншот](http://s29.postimg.org/76ghtbepz/Screenshot.png)
 
 [Установить](https://raw.githubusercontent.com/Kleshni/Lineyka/master/main.user.js).
 
