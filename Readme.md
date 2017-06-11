@@ -1,7 +1,9 @@
+Устарела и больше не поддерживается.
+
 Линейка
 =======
 
-![Скриншот](http://s29.postimg.org/76ghtbepz/Screenshot.png)
+![Скриншот](screenshot.png)
 
 [Установить](https://raw.githubusercontent.com/Kleshni/Lineyka/master/main.user.js).
 
@@ -16,4 +18,4 @@
 * [Гит](https://github.com/Kleshni/Lineyka.git).
 * [Баг-трекер](https://github.com/Kleshni/Lineyka/issues).
 * Битмессадж: BM-FHMGLusCyAEjonpwAYdxzfcyBszP.
-* Почта: [biryuzovye.kleshni@yandex.ru](mailto:biryuzovye.kleshni@yandex.ru).
+* Почта: [kleshni@protonmail.ch](mailto:kleshni@protonmail.ch).
