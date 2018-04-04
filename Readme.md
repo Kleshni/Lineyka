@@ -17,5 +17,5 @@
 * [Исходники](https://github.com/Kleshni/Lineyka/archive/master.zip).
 * [Гит](https://github.com/Kleshni/Lineyka.git).
 * [Баг-трекер](https://github.com/Kleshni/Lineyka/issues).
-* Битмессадж: BM-FHMGLusCyAEjonpwAYdxzfcyBszP.
+* Битмессадж: BM-2cT5WWccBgLsHTw5ADLcodTz4dbqdtrwrQ.
 * Почта: [kleshni@protonmail.ch](mailto:kleshni@protonmail.ch).
